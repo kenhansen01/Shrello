@@ -1,0 +1,37 @@
+.shrello {
+  // padding: 28px 40px;
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  .shrelloContainer {
+    position: relative;
+    // height: 100%;
+    height: 800px;
+    min-height: 75vh;
+    margin-right: 0;
+    transition: margin .1s ease-in;
+  }
+
+  .topRow {
+    position: relative;
+  }
+
+  .shrelloCommandBar {
+  }
+
+  .shrelloHeading {
+    display: inline-block;
+  }
+
+  @media (max-width: 600px) {
+    padding: 0px;
+  }
+}
+
+.shrelloIsFullScreen {
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: "[theme: themePrimary, default: #24933C]";
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  overflow-x: auto;
+}

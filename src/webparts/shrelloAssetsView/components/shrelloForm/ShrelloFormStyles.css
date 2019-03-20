@@ -1,0 +1,7 @@
+.ms-Dropdown-container, .ms-Slider {
+  margin: 10px 0 10px 0;
+}
+
+.ms-ChoiceField-labelWrapper {
+  white-space: pre-wrap !important;
+}

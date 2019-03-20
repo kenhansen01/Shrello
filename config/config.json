@@ -1,0 +1,15 @@
+{
+  "entries": [
+    {
+      "entry": "./lib/webparts/shrelloAssetsView/ShrelloAssetsViewWebPart.js",
+      "manifest": "./src/webparts/shrelloAssetsView/ShrelloAssetsViewWebPart.manifest.json",
+      "outputPath": "./dist/shrello-assets-view-web-part.js"
+    }
+  ],
+  "externals": {},
+  "localizedResources": {
+    "ShrelloAssetsViewWebPartStrings": "webparts/shrelloAssetsView/loc/{locale}.js",
+    "ControlStrings": "../node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js",
+    "PropertyControlStrings": "../node_modules/@pnp/spfx-property-controls/lib/loc/{locale}.js"
+  }
+}

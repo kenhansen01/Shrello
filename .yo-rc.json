@@ -1,0 +1,8 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "version": "1.4.1",
+    "libraryName": "shrello-assets-view-webpart",
+    "libraryId": "eeb55172-f4b8-48f3-b1df-1501a5243de2",
+    "environment": "onprem"
+  }
+}

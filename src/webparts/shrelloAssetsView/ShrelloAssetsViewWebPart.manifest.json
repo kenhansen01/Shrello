@@ -1,0 +1,20 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "3dbb83fc-26e1-42de-aaa3-160b06241674",
+  "alias": "ShrelloAssetsViewWebPart",
+  "componentType": "WebPart",
+  "version": "*",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+    "group": { "default": "Other" },
+    "title": { "default": "TASCAssetsView" },
+    "description": { "default": "Creates necessary assets and views for TASC." },
+    "officeFabricIconFontName": "IssueTracking",
+    "properties": {
+      "description": "TASC Assets and View",
+      "assetsProvisioned": false
+    }
+  }]
+}

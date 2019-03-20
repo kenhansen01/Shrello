@@ -1,0 +1,189 @@
+@import '../../shared/breakpoints.module';
+
+.shrelloForm {
+  height: 85vh;
+  width: 80vw;
+  @include mq('tablet-wide') {
+    width: 60vw;
+  }
+  @include mq('desktop-wide') {
+    width: 50vw;
+  }
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  white-space: pre-wrap;
+  overflow: hidden;
+
+  .shrelloFormHeader {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    background: #0078d4;
+    color: #fff;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-size: 28px;
+    font-weight: 100;
+    font-weight: 600;
+    padding: 0 28px;
+    min-height: 40px;
+  }
+
+  .shrelloFormBody {
+    -webkit-box-flex: 4;
+    -ms-flex: 4 4 auto;
+    flex: 4 4 auto;
+    padding: 5px 28px;
+    overflow-y: auto;
+
+    h2 {
+      font-size: 1.5rem;
+      -webkit-margin-before: 0;
+      -webkit-margin-after: 0;
+      -webkit-margin-start: 0;
+      -webkit-margin-end: 0;
+      margin: 0 0 0.83rem 0;
+      font-weight: 600;
+    }
+
+    .fileList {
+      padding: 0 0.55rem 0.83rem 0;
+      display: inline-block;
+      
+      .file {
+        float: left;
+        width: 50%;
+        display: block;
+      }
+    }
+
+    .formLabels {
+      margin: 0 12px 0 0;
+      overflow: auto;
+      position: relative;
+
+      .formLabel {
+        float: left;
+        font-size: 28px;
+        font-weight: 600;
+        text-align: center;
+        margin: 0 12px 12px 0;
+        padding: 0;
+        text-shadow: none;
+        width: auto;
+
+        .formLabelText {
+          font-size: 0.79rem;
+          padding: 0;
+        }
+
+        .formLabelIcon {
+          font-size: 1.55rem;
+        }
+      }
+    }
+
+    .shrelloTitle, .shrelloCommentField {
+      
+      .shrelloTitleInput, .shrelloCommentInput {
+        padding: 0;
+        
+        &:focus {
+          padding: 0 0.8rem 0 0.8rem;
+        }
+      }
+
+      .shrelloTitleInput {
+        font-size: 1.8rem;
+        font-weight: 600;
+      }
+
+      .shrelloCommentInput {
+        font-size: 1.2rem;
+      }
+    }
+
+    .shrelloTitle {
+      padding-bottom: 1rem;
+
+      & > div > div {
+        height: auto;
+        min-height: 32px;
+      }
+    }
+
+    .shrelloCommentField {
+      margin-top: 0.83rem;
+    }
+
+    .shrelloPriority {
+      display: block;
+      width: 100%;
+
+      .shrelloPriorityLabel {
+        margin: 0 10px;
+        padding: 8px;
+        text-align: center;
+        font-weight: 700;
+      }
+    }
+  }
+
+  .shrelloActions {
+    display: block;
+    width: 100%;
+    text-align: left;
+    font-size: 16px;
+    height: 40px;
+    margin-bottom: 8px;
+  }
+
+  .shrelloFormFooter {
+    position: relative;
+    width: 100%;
+    min-height: 24px;
+    line-height: 24px;
+    margin-top: 20px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    font-size: 0px;
+    
+    .shrelloFormAction {
+      margin: 4px;
+      float: right;
+    }
+  }
+}
+
+.calloutDismiss {
+  position: absolute;
+  top: 8px;
+  right: 8px;
+}
+
+.shrelloActionCallout {
+  padding: 16px;
+  min-width: 100px;
+}
+
+.personaZone {
+  margin-top: 24px;
+  margin-bottom: 12px;
+}
+
+.persona {
+  margin: 0 0 10px 0;
+}

@@ -1,0 +1,11 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "shrello-assets-view-webpart-client-side-solution",
+    "id": "eeb55172-f4b8-48f3-b1df-1501a5243de2",
+    "version": "1.0.0.0"
+  },
+  "paths": {
+    "zippedPackage": "solution/shrello-assets-view-webpart.sppkg"
+  }
+}
